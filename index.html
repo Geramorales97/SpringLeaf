@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Leaf</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" type="image/x-icon" href="src/images/favicon/favicon.ico">
+    <script src="https://kit.fontawesome.com/59a1774174.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" target="_parent"><img src="src/images/springleaf.png" class="logo_img" alt="Site Logo">
+        </a>
+
+        <nav class="navigation" id="nav_menu">
+            <a href="#" class="nav_item" target="_blank">Recipes</a>
+            <a href="#" class="nav_item" target="_blank">Shop</a>
+            <a href="#" class="nav_item" target="_blank">Courses</a>
+            <a href="#" class="nav_item" target="_blank">Blog</a>
+            <a href="#" class="nav_item" target="_blank">About us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars" style="color: black; font-size: 1.4rem;"></i></a>
+        </nav>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("nav_menu");
+        if (x.className === "navigation") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "navigation";
+        }
+    }
+</script>
+
+        <div class="social">
+        <a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+        <a href="https://www.tiktok.com/ru-RU/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <div class="autho">
+            <a href="#" target="_blank"><i class="fa-solid fa-right-from-bracket"></i>
+            <span class="tooltiptext">Log In</span>
+            </a>
+            <a href="#" target="_blank"><i class="fa-solid fa-user"></i>
+            <span class="tooltiptext">Sign In</span>
+            </a>
+        </div>
+    </header>
+
+  <main class="main">
+    <div class="intro">
+        <div class="intro_block">
+            <h1 class="title_head">Be healthy with Spring Leaf!</h1>
+            <p class="title_desc"><b>Introducing</b> our new site, dedicated to healthy farm food! Our mission is to bring you the freshest, most nutritious ingredients straight from the farm to your table. Our team of experts have carefully curated a selection of products that are not only delicious, but also good for your body and the environment.
+                <br>
+            </p>
+            <p class="title_desc"> <b>Whether</b> you're a health-conscious foodie or just looking for a convenient way to eat clean, we've got you covered. Our site offers a wide range of farm-fresh produce, dairy, meat, and pantry staples, all sourced from local, sustainable farms. </p>
+        </div>
+        <div class="intro_block intro_block_image">
+             <img src="src/images/products.jpg" alt="Products" class="products_img">
+                <div class="overlay">
+                    <div class="overlay_text">From farm to table, with a little AI!</div>
+                </div>
+        </div>
+    </div>
+</main>
+
+<section class="section">
+    <div class="goals_flex">
+        <div class="goals_flexitem">
+            <p class="goal_desc"><b>To promote healthy eating habits:</b><br> We believe that eating fresh, nutritious food is the foundation of a healthy lifestyle. Our goal is to make it easy and convenient for people to access high-quality, farm-fresh ingredients that will nourish their bodies and support their overall health.</p>
+            <img src="src/images/goals/vegetables.jpg" alt="Goal Img" class="goal_img">
+            <p class="goal_desc"><b>To support local farmers:</b><br> We are committed to sourcing our products from local, sustainable farms. By doing so, we are not only helping to support small businesses and local communities, but we are also reducing our carbon footprint and promoting a more sustainable food system.</p>
+            <img src="src/images/goals/farms.jpg" alt="Goal Img" class="goal_img">
+        </div>
+        <div class="goals_flexitem">
+            <img src="src/images/goals/delivery.jpg" alt="Goal Img" class="goal_img">
+            <p class="goal_desc"><b>To provide exceptional customer service:</b><br> We strive to provide our customers with the best possible experience, from the moment they visit our site to the moment their order arrives at their doorstep. Our goal is to create a seamless, user-friendly experience that exceeds our customers' expectations.</p>
+            <img src="src/images/goals/salad.jpg" alt="Goal Img" class="goal_img">
+            <p class="goal_desc"><b>To foster a community of health-conscious foodies:</b><br> We believe that healthy eating is a journey, and we want to support our customers every step of the way. Our goal is to foster a community of like-minded individuals who are passionate about food, health, and sustainability, and who are committed to making positive changes in their lives and in the world around them.</p>
+        </div>
+    </div>
+</section> <!-- Section Two With Goals -->
+<section class="section">
+   <div class="recipe_block fade">
+    <div class="recipe">
+        <div class="recipe_item">
+            <div class="polaroid_recipe"> <img src="src/images/recipes/greeksalad.jpg" alt="Greek Salad" class="recipe_img">
+                <div class="recipe_name">
+                    <p>Greek Salad</p>
+                </div>
+            </div>
+        </div>
+        <div class="recipe_item recipe_item2">
+            <div class="recipe_title">Ingredients</div>
+            <div class="list_of_ingr">
+                <ul>
+                    <li>1 cucumber, diced</li>
+                    <li>1 red onion, sliced</li>
+                    <li>1 green bell pepper, diced</li>
+                    <li>1 pint cherry tomatoes, halved</li>
+                    <li>1/2 cup Kalamata olives, pitted</li>
+                    <li>4 oz feta cheese, crumbled</li>
+                    <li>2 tbsp extra-virgin olive oil</li>
+                    <li>1 tbsp red wine vinegar</li>
+                    <li>1 tsp dried oregano</li>
+                    <li>Salt and pepper, to taste</li>
+                </ul>
+            </div>
+            <div class="recipe_title">How to make</div>
+            <div class="recipe_howto">
+                <p> In a large bowl, combine the cucumber, onion, bell pepper, tomatoes, olives, and feta cheese. In a small bowl, whisk together the olive oil, red wine vinegar, oregano, salt, and pepper. Drizzle the dressing over the salad and toss to combine. </p>
+            </div>
+        </div>
+     </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="recipe_block fade">
+    <div class="recipe">
+        <div class="recipe_item">
+            <div class="polaroid_recipe"> <img src="src/images/recipes/roastedsalad.jpg" alt="Greek Salad" class="recipe_img">
+                <div class="recipe_name">
+                    <p>Roasted Vegetable Salad</p>
+                </div>
+            </div>
+        </div>
+        <div class="recipe_item recipe_item2">
+            <div class="recipe_title">Ingredients</div>
+            <div class="list_of_ingr">
+                <ul>
+                    <li>1 small head cauliflower, chopped into florets</li>
+                    <li>1 small butternut squash, peeled and diced</li>
+                    <li>1 red onion, sliced</li>
+                    <li>1 red bell pepper, diced</li>
+                    <li>1/4 cup olive oil</li>
+                    <li>4 cups baby spinach</li>
+                    <li>1/2 cup crumbled goat cheese</li>
+                    <li>1/4 cup balsamic vinegar</li>
+                    <li>1 tbsp honey</li>
+                    <li>Salt and pepper, to taste</li>
+                </ul>
+            </div>
+            <div class="recipe_title">How to make</div>
+            <div class="recipe_howto">
+                <p> Preheat the oven to 400°F. In a large bowl, toss together the cauliflower, butternut squash, onion, and bell pepper with the olive oil, salt, and pepper. Spread the vegetables out on a baking sheet and roast for 30-40 minutes, until tender and caramelized. In a small bowl, whisk together the balsamic vinegar and honey. In a large bowl, toss together the roasted vegetables, spinach, goat cheese, and balsamic dressing. </p>
+            </div>
+        </div>
+     </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div class="recipe_block fade">
+    <div class="recipe">
+        <div class="recipe_item">
+            <div class="polaroid_recipe"> <img src="src/images/recipes/quinoa.jpg" alt="Greek Salad" class="recipe_img">
+                <div class="recipe_name">
+                    <p>Quinoa and Vegetable Salad</p>
+                </div>
+            </div>
+        </div>
+        <div class="recipe_item recipe_item2">
+            <div class="recipe_title">Ingredients</div>
+            <div class="list_of_ingr">
+                <ul>
+                    <li>1 cup quinoa</li>
+                    <li>2 cups water</li>
+                    <li>1 red bell pepper, diced</li>
+                    <li>1 yellow bell pepper, diced</li>
+                    <li>1 small zucchini, diced</li>
+                    <li>1 small yellow squash, diced</li>
+                    <li>1/2 red onion, diced</li>
+                    <li>1/4 cup chopped fresh parsley</li>
+                    <li>1/4 cup chopped fresh mint</li>
+                    <li>1/4 cup lemon juice</li>
+                    <li>1/4 cup extra-virgin olive oil</li>
+                    <li>Salt and pepper, to taste</li>
+                </ul>
+            </div>
+            <div class="recipe_title">How to make</div>
+            <div class="recipe_howto">
+                <p> Rinse the quinoa under cold water and drain. In a medium saucepan, combine the quinoa and water and bring to a boil. Reduce the heat to low, cover, and simmer for 15-20 minutes, until the quinoa is tender and the water has been absorbed. In a large bowl, combine the cooked quinoa, bell peppers, zucchini, yellow squash, onion, parsley, and mint. In a small bowl, whisk together the lemon juice, olive oil, salt, and pepper. Drizzle the dressing over the salad and toss to combine. </p>
+            </div>
+        </div>
+     </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!-- Script for recipe slide -->
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("recipe_block");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+
+</section> <!-- Section Three With Recipes -->
+<section class="section">
+    <div class="review_title">Feedback on our products</div>
+<div class="review_block">
+   <div class="review_item">
+        <div class="review_desc">
+            <p style="margin-bottom: 1rem;">Have you tried one of our products and want to share your thoughts with others? We'd love to hear from you! Our customer feedback section is the perfect place to leave your honest opinion about our products, whether you loved them or have suggestions for improvement. To leave a review, simply click "Add Your Feedback" below and fill out the form.</p>
+            <p>Your feedback is incredibly valuable to us, as it helps us continue to provide the best possible products and service to our customers.</p>
+        </div>
+    <div class="review_input">
+        <form action="" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname"><br>
+        <label for="sname">Second name:</label><br>
+        <input type="text" name="sname"><br>
+        <br><textarea name="review_text" placeholder="Your Feedback..." style="height: 10rem;"></textarea>
+        <div class="review_btn"><button onclick="alert('Feedback submited!')">Add Your Feedback</button></div>
+        </form>
+    </div>
+    </div>
+    <div class="review_item">
+        <img src="src/images/review_veget.jpg" alt="Vegetables" class="review_img">
+    </div>
+</div>
+
+</section> <!-- Section Four With Reviews -->
+
+<section class="section">
+    <div class="title_head plans_head">Take our special healthy plans </div>
+    <p class="plans_desc"><b>Are</b> you interested in learning how to cook healthy meals that are delicious and easy to prepare? Look no further than our plans on healthy food!</p><br>
+    <p class="plans_desc"><b>Our</b> plans are designed to teach you everything you need to know about cooking healthy meals that are packed with nutrients and flavor. From learning how to prepare fresh vegetables to mastering the art of cooking lean proteins, our plans will give you the skills, knowledge and the frash farm products you need to make healthy eating a part of your daily routine.</p><br>
+    <p class="plans_desc" style="margin-bottom: 2rem;"><b>So</b> why wait? Choose one of our plans below and start your journey towards a healthier, happier you!</p>
+
+    <div class="plans_flexbox">
+        <div class="plans_flexitem">
+           <div class="overlay_container">
+            <img src="src/images/plans/plan1.jpg" alt="Plan 1 image" class="plans_flexitem_img">
+                <div class="overlay_text_plans">One Week Plan:
+                    <ul>
+                    <li>All necessary food</li>
+                    <li>Easy recipes</li>
+                    <li>Recomendations</li>
+                    </ul>
+                </div>
+                <button class="buy_plan_btn">Purchase</button>
+            </div>
+        </div>
+    <div class="plans_flexitem">
+        <div class="overlay_container">
+            <img src="src/images/plans/plan2.jpg" alt="Plan 2 image" class="plans_flexitem_img">
+                <div class="overlay_text_plans">Two Week Plan:
+                    <ul>
+                    <li>All necessary food</li>
+                    <li>Easy recipes</li>
+                    <li>Recomendations</li>
+                    <li>Additional healthy drink</li>
+                    </ul>
+                </div>
+                <button class="buy_plan_btn">Purchase</button>
+            </div>
+        </div>
+        <div class="plans_flexitem">
+            <div class="overlay_container">
+            <img src="src/images/plans/plan3.jpg" alt="Plan 3 image" class="plans_flexitem_img">
+                <div class="overlay_text_plans">Four Week Plan:
+                    <ul>
+                    <li>All necessary food</li>
+                    <li>Easy recipes</li>
+                    <li>Recomendations</li>
+                    <li>Additional healthy drink</li>
+                    <li>Personal fitness recomendations</li>
+                    </ul>
+                </div>
+                <div class="buy_plan_btn">Purchase</div>
+            </div>
+        </div>
+    </div> <!-- Prev. realisasion
+    <div class="plans_flexbox_button">
+        <div class="plans_flexitem_button">Purchase</div>
+        <div class="plans_flexitem_button">Purchase</div>
+        <div class="plans_flexitem_button">Purchase</div>
+    </div>
+            -->
+</section> <!-- Section Five With Courses -->
+
+<footer></footer>
+</body>
+
+</html>
